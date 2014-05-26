@@ -15,10 +15,10 @@ GOOD LUCK!
 Explanation of the script
 ===========
 
-1. Use <cbind> to merge three test files and three train files into two files "test" and "train".
-2. Use <rbind> to merge "test" and "train" into "data".
+1. Use <code>cbind<code> to merge three test files and three train files into two files "test" and "train".
+2. Use <code>rbind<code> to merge "test" and "train" into "data".
 3. Read "features.txt" to get variable names.
-4. Use <grepl> to select "std" and "mean" columns.
-5. Use <gsub> six times to replace activitylabels by descriptive language.
-6. Use <grep> and <colnames> to replace variable column names by descriptive language.
-7. Use <melt> and <dcast> of reshape2 to get mean values of defined group.
+4. Use <code>grepl<code> to select "std" and "mean" columns.
+5. Use <code>gsub<code> six times to replace activitylabels by descriptive language.
+6. Use <code>grep<code> and <code>colnames<code> to replace variable column names by descriptive language.
+7. Use <code>melt<code> and <code>dcast<code> of reshape2 to get mean values of defined group.
